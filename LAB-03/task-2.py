@@ -9,3 +9,4 @@ dataFile = open("myFiles/data1.txt", "w")
 for line in range(100):
     dataFile.write("%s\n" % line)
 dataFile.close()
+
